@@ -1,0 +1,33 @@
+[debug] > Exec(test, None, None)
+[debug] Evaluating tasks: Test / test
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to E:\work\scala\lab_recursion\target\scala-2.13\classes ...
+[warn] 2 deprecations (since 2.13.0); re-run with -deprecation for details
+[warn] one warning found
+[info] done compiling
+[info] CountChangeSuite:
+[info] - countChange: example given in instructions
+[info] - countChange: sorted CHF
+[info] - countChange: no pennies
+[info] - countChange: unsorted CHF
+[info] BalanceSuite:
+[info] getCSuite:
+[info] - getC: out of D(f)
+[info] - getC: from 1 to 2
+[info] - getC: >2
+[info] - balance: '(if (zero? x) max (/ 1 x))' is balanced
+[info] - balance: 'I told him ...' is balanced
+[info] - balance: ':-)' is unbalanced
+[info] - balance: counting is not enough
+[info] PascalSuite:
+[info] - pascal: col=0,row=2
+[info] - pascal: col=1,row=2
+[info] - pascal: col=1,row=3
+[info] Run completed in 124 milliseconds.
+[info] Total number of tests run: 14
+[info] Suites: completed 4, aborted 0
+[info] Tests: succeeded 14, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[debug] Forcing garbage collection...
+[success] Total time: 1 s, completed 22 дек. 2021 г., 09:03:34
+[debug] > Exec(idea-shell, None, None)

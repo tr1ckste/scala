@@ -1,0 +1,38 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 4 products, 2 sources, 1 libraries
+[debug] current source = Set(${BASE}/src/main/scala/common/package.scala, ${BASE}/src/main/scala/recfun/Main.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/recfun/Main.scala), unmodified = ...),Set(${BASE}/target/scala-2.13/classes/recfun/Main$.class),Set(),API Changes: Set())
+[debug] 
+[debug] Initial source changes:
+[debug] 	removed: Set()
+[debug] 	added: Set()
+[debug] 	modified: Set(${BASE}/src/main/scala/recfun/Main.scala)
+[debug] Invalidated products: Set(${BASE}/target/scala-2.13/classes/recfun/Main$.class)
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated classes: Set(recfun.Main)
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set(${BASE}/src/main/scala/recfun/Main.scala)
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] All initially invalidated classes: Set(recfun.Main)
+[debug] All initially invalidated sources:Set(${BASE}/src/main/scala/recfun/Main.scala)
+[debug] Initial set of included nodes: recfun.Main
+[debug] compilation cycle 1
+[info] compiling 1 Scala source to E:\work\scala\lab_recursion\target\scala-2.13\classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.13:1.5.7:compile for Scala 2.13.6
+[debug] [zinc] Running cached compiler 6bbf5ea7 for Scala compiler version 2.13.6
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-bootclasspath
+[debug] 	C:\Users\nikit\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.6\scala-library-2.13.6.jar
+[debug] 	-classpath
+[debug] 	E:\work\scala\lab_recursion\target\scala-2.13\classes
+[debug] New invalidations:
+[debug] Initial set of included nodes: 
+[debug] Previously invalidated, but (transitively) depend on new invalidations:
+[debug] Final step, transitive dependencies:
+[debug] 	Set()
+[debug] No classes were invalidated.
+[debug] Scala compilation took 0.2230787 s
+[info] done compiling
